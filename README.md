@@ -1,38 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hello World with React boilerplate
 
-## Getting Started
+Start coding a react application
 
-First, run the development server:
+> If you are working locally instead of using codespaces or gitpod, please follow [local installation steps].(#local-installation) and come back to this part of the readme.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## How to start coding?
+
+- Install the packages with `$ yarn`.
+- Run the webpack server with `$ yarn dev`
+
+You can update the `src/styles/globals.css` or `src/pages/index.js` depending on your needs.
+Add more files into your, `src/components` or styles folder as you need them.
+
+## Local Installation (skip if you are working on codespaces or gitpod)
+
+Download the boilerplate using git
+
+```
+$ git clone https://github.com/4GeeksAcademy/react-hello.git
+$ cd react-hello
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Publish your website!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Other features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
+- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
+- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
+- One-command publish of the code to github pages with `npm run deploy:github`.
+- Babel 7 (really fast).
 
-## Learn More
+### Contributors
 
-To learn more about Next.js, take a look at the following resources:
+This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/react-hello/graphs/contributors).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
