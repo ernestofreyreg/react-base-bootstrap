@@ -9,7 +9,7 @@ export function withTimer(Component) {
       setLastTime(Date.now());
     }, 1000);
 
-    return <Component time={Math.floor((lastTime - initialTime) / 1000)} />;
+    return <Component seconds={Math.floor((lastTime - initialTime) / 1000)} />;
   };
 
   return TimerComponent;
