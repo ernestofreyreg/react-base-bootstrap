@@ -24,6 +24,7 @@ export function AddContact() {
   const router = useRouter();
 
   const queryClient = useQueryClient();
+  ``;
   const { mutate, isLoading } = useMutation({
     mutationFn: postContact,
     onSuccess: () => {
